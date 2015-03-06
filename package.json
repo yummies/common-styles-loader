@@ -1,0 +1,41 @@
+{
+  "name": "yummies-common-styles-loader",
+  "version": "0.1.0",
+  "description": "Yummies common styles loader for webpack",
+  "keywords": [ "yummies", "react", "webpack", "loader" ],
+  "homepage": "https://github.com/yummies/yummies-common-styles-loader",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/yummies/yummies-common-styles-loader.git"
+  },
+  "author": {
+    "name": "Kir Belevich",
+    "email": "kir@soulshine.in",
+    "url": "https://github.com/deepsweet"
+  },
+  "main": "build/index.js",
+  "peerDependencies": {
+      "webpack": "1.x.x",
+      "loader-utils": "0.x.x"
+  },
+  "dependencies": {
+    "babel": "4.x.x",
+    "babel-runtime": "4.x.x"
+  },
+  "devDependencies": {
+    "eslint": "0.x.x",
+    "babel-eslint": "1.0.x"
+  },
+  "scripts": {
+      "eslint": "eslint lib/",
+      "lint": "npm run eslint",
+      "test": "npm run lint",
+      "build": "babel lib/ -d build/ -i runtime",
+      "dev": "babel lib/ -d build/ -i runtime -w",
+      "prepublish": "npm run build"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "license": "MIT"
+}
