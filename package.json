@@ -1,6 +1,6 @@
 {
   "name": "yummies-common-styles-loader",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Yummies common styles loader for webpack",
   "keywords": [ "yummies", "react", "webpack", "loader" ],
   "homepage": "https://github.com/yummies/yummies-common-styles-loader",
