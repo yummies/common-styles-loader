@@ -19,12 +19,12 @@
       "loader-utils": "0.x.x"
   },
   "dependencies": {
-    "babel": "4.x.x",
-    "babel-runtime": "4.x.x"
+    "babel": "5.x.x",
+    "babel-runtime": "5.x.x"
   },
   "devDependencies": {
     "eslint": "0.x.x",
-    "babel-eslint": "1.0.x"
+    "babel-eslint": "2.0.x"
   },
   "scripts": {
       "eslint": "eslint lib/",
