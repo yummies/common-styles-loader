@@ -15,8 +15,8 @@
   },
   "main": "build/index.js",
   "peerDependencies": {
-      "webpack": "1.x.x",
-      "loader-utils": "0.x.x"
+    "webpack": "1.x.x",
+    "loader-utils": "0.x.x"
   },
   "dependencies": {
     "babel": "5.x.x",
@@ -27,12 +27,12 @@
     "babel-eslint": "2.0.x"
   },
   "scripts": {
-      "eslint": "eslint lib/",
-      "lint": "npm run eslint",
-      "test": "npm run lint",
-      "build": "babel lib/ -d build/ -i runtime",
-      "dev": "babel lib/ -d build/ -i runtime -w",
-      "prepublish": "npm run build"
+    "eslint": "eslint lib/",
+    "lint": "npm run eslint",
+    "test": "npm run lint",
+    "build": "babel lib/ -d build/ -i runtime",
+    "dev": "babel lib/ -d build/ -i runtime -w",
+    "prepublish": "npm run build"
   },
   "engines": {
     "node": ">=0.10.0"
