@@ -8,30 +8,35 @@
     "type": "git",
     "url": "git://github.com/yummies/yummies-common-styles-loader.git"
   },
-  "author": {
-    "name": "Kir Belevich",
-    "email": "kir@soulshine.in",
-    "url": "https://github.com/deepsweet"
-  },
+  "contributors": [
+    {
+      "name": "Kir Belevich",
+      "email": "kir@soulshine.in",
+      "url": "https://github.com/deepsweet"
+    },
+    {
+      "name": "Denis Koltsov",
+      "email": "iam@mistadikay.com",
+      "url": "https://github.com/mistadikay"
+    }
+  ],
   "main": "build/index.js",
   "peerDependencies": {
+    "babel": "5.x.x",
+    "babel-core": "5.x.x",
+    "babel-runtime": "5.x.x",
     "webpack": "1.x.x",
     "loader-utils": "0.x.x"
   },
-  "dependencies": {
-    "babel": "5.x.x",
-    "babel-runtime": "5.x.x"
-  },
   "devDependencies": {
-    "eslint": "0.x.x",
+    "eslint": "0.18.x",
     "babel-eslint": "2.0.x"
   },
   "scripts": {
-    "eslint": "eslint lib/",
-    "lint": "npm run eslint",
+    "lint": "eslint lib/",
     "test": "npm run lint",
-    "build": "babel lib/ -d build/ -i runtime",
-    "dev": "babel lib/ -d build/ -i runtime -w",
+    "build": "babel lib/ -d build/",
+    "dev": "npm run build -- -w",
     "prepublish": "npm run build"
   },
   "engines": {
