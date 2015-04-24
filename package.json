@@ -1,5 +1,5 @@
 {
-  "name": "yummies-common-styles-loader",
+  "name": "@yummies/common-styles-loader",
   "version": "0.3.0",
   "description": "Yummies common styles loader for webpack",
   "keywords": [ "yummies", "react", "webpack", "loader" ],
