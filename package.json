@@ -10,6 +10,10 @@
     "Denis Koltsov <iam@mistadikay.com> 9https://github.com/mistadikay)"
   ],
   "main": "build/index.js",
+  "files": [
+    "build/",
+    "LICENSE"
+  ],
   "dependencies": {
     "babel-runtime": "5.1.x"
   },
@@ -24,7 +28,7 @@
     "babel-eslint": "3.0.x"
   },
   "scripts": {
-    "lint": "eslint lib/",
+    "lint": "eslint --ext .es6 lib/",
     "test": "npm run lint",
     "build": "babel lib/ -d build/",
     "dev": "npm run build -- -w",
