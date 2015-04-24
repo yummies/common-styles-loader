@@ -21,16 +21,18 @@
     }
   ],
   "main": "build/index.js",
+  "dependencies": {
+    "babel-runtime": "5.1.x"
+  },
   "peerDependencies": {
-    "babel": "5.x.x",
-    "babel-core": "5.x.x",
-    "babel-runtime": "5.x.x",
     "webpack": "1.x.x",
     "loader-utils": "0.x.x"
   },
   "devDependencies": {
-    "eslint": "0.18.x",
-    "babel-eslint": "2.0.x"
+    "babel": "5.1.x",
+    "babel-core": "5.1.x",
+    "eslint": "0.19.x",
+    "babel-eslint": "3.0.x"
   },
   "scripts": {
     "lint": "eslint lib/",
