@@ -32,7 +32,7 @@ function makeImportsString(files) {
         return '';
     }
 
-    return files.map(file => '@import (reference) "~' + file + '";\n').join('');
+    return files.map(file => '@import "~' + file + '";\n').join('');
 }
 
 function process(pathsToCheck, resolveFunc) {
