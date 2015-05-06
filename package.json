@@ -2,12 +2,12 @@
   "name": "@yummies/common-styles-loader",
   "version": "0.3.0",
   "description": "Yummies common styles loader for webpack",
-  "keywords": [ "yummies", "react", "webpack", "loader" ],
+  "keywords": [ "yummies", "react", "webpack", "webpack-loader" ],
   "homepage": "https://github.com/yummies/common-styles-loader",
   "repository": "yummies/common-styles-loader",
   "contributors": [
     "Kir Belevich <kir@soulshine.in> (https://github.com/deepsweet)",
-    "Denis Koltsov <iam@mistadikay.com> 9https://github.com/mistadikay)"
+    "Denis Koltsov <iam@mistadikay.com> (https://github.com/mistadikay)"
   ],
   "main": "build/index.js",
   "files": [
